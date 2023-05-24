@@ -5,9 +5,15 @@
 :root {
     --shaddow:0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
   }
+ 
+ 
 
 body{
-    background-color: rgba(232,233,239,1);
+    background-image: url('https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size:auto;
+    background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
 }
 
