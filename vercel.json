@@ -7,7 +7,7 @@
     "router": [
         {
             "src": "/(.*)",
-            "dest": "mychat/wsgi.py"
+            "dest": "_mychat/wsgi.py_"
         }
     ]
 }
