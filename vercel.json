@@ -1,13 +1,14 @@
 {
-    "builds": [{
+    "builds": [
+        {
         "src": "mychat/wsgi.py",
         "use": "@vercel/python"
-    }],
-    
-    "router": [
+    }
+    ],
+    "routes":[
         {
             "src": "/(.*)",
-            "dest": "_mychat/wsgi.py_"
+            "dest": "mychat/wsgi.py"
         }
     ]
 }
